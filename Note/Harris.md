@@ -75,7 +75,7 @@ $$
   上述步骤将 c 化简为 
 
 $$
-A\Delta x^2+2C\Delta x\Delta y +B\Delta y^2 = \lambda_1\Delta x^2+ \lambda_2 \Delta y^2
+A\Delta x^2
 $$
 
 上述式子可以看成一个椭圆
