@@ -45,3 +45,4 @@ $$
 R = \lambda_1\lambda_2 -0.04(\lambda_1+\lambda_2)^2
 $$
 R值越小,就越接近角点
+
