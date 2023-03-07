@@ -11,7 +11,7 @@ $$
 c(x,y,\varDelta x,\varDelta y)=\sum _{(u,v)\in W(x,y)} \omega(u,v)·(I(u,v)-I(u+\varDelta x,v+\varDelta y))^2
 $$
 
-  $$w(u,v)$$ 为加权函数,$(u,v)$代表的是选择的一个方框的所有像素点
+  $w(u,v)$ 为加权函数,$(u,v)$代表的是选择的一个方框的所有像素点
 
   将平方项单独拉出来考虑:
 
@@ -19,7 +19,7 @@ $$
 
   $I(u+\varDelta x,v+\varDelta y)=I_x(u,v)\varDelta x+I_y(u,v)\varDelta y + I(u,v)$其中的$I(u,v)$项与前面相减消掉
 
-  所以$c = \sum _{w} (I_x(u,v)\varDelta x+I_y(u,v)\varDelta y)^2 = \begin{bmatrix}\varDelta x & \varDelta y \end{bmatrix}·M(x,y)·\begin{bmatrix} \varDelta x\\ \varDelta y \end{bmatrix}$
+  所以 $c = \sum _{w} (I_x(u,v)\varDelta x+I_y(u,v)\varDelta y)^2 = \begin{bmatrix}\varDelta x & \varDelta y \end{bmatrix}·M(x,y)·\begin{bmatrix} \varDelta x\\ \varDelta y \end{bmatrix}$
 
   其中 $M(x,y)=\sum _{w} \begin{bmatrix} I_x^2(x,y)&I_x(x,y)I_y(x,y)\\ I_x(x,y)I_y(x,y)&I_y^2(x,y) \end{bmatrix} = \begin{bmatrix} A&C\\C&B \end{bmatrix}$
 
